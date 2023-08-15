@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://{[your-demo-link.your-domain](https://earnest-custard-70bef4.netlify.app/)}">
+    <a href="https://app.netlify.com/sites/earnest-custard-70bef4/overview">
       Demo
     </a>
     <span> | </span>
