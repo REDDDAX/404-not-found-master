@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://earnest-custard-70bef4.netlify.app/">
+    <a href="https://earnest-custard-70bef4.netlify.app/" target="_blank">
       Demo
     </a>
     <span> | </span>
