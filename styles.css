@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    margin: 0;
+    
+}
+main{
+    
+    height: 100vh;
+
+}
+main p{
+    color: #333;
+font-family: Inconsolata;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.92px;
+text-transform: uppercase;
+
+margin:40px 0 0 70px ;
+}
+div.container{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+   
+}
+div.container div{
+    height: 100%;
+    width: 100%;
+    
+    
+}
+.left{
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+.right{
+    display: flex;
+justify-content: center;
+
+}
+div.left img {
+    width: 539.224px;
+    height: 447.426px;
+    flex-shrink: 0;
+border-radius: 8px;
+background: #FFF;
+
+
+
+}
+div.right{
+    display: flex;
+    flex-direction: column;
+   
+}
+div.right h1{
+    color: var(--gray-1, #333);
+font-family: Space Mono;
+font-size: 64px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -2.24px;
+width: 586px;
+}
+div.right p{
+    color: var(--gray-2, #4F4F4F);
+font-family: Space Mono;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.84px;
+width: 381px;
+position: relative;
+right: 70px;
+}
+div.right button{
+    width: 216px;
+    height: 68px;
+    flex-shrink: 0;
+    background: var(--gray-1, #333);
+    border: none;
+    margin-top: 64px;
+    color: #FFF;
+font-family: Space Mono;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -0.49px;
+text-transform: uppercase;
+}
+p.REDDDAX{
+    color: #BDBDBD;
+text-align: center;
+font-family: Montserrat;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+p.REDDDAX span{
+    text-decoration-line: underline;
+    font-weight: 700;
+}
+@media screen and (max-width:1000px) {
+    main{
+    
+        height: 100%;
+    
+    }
+    main p{
+        color: #333;
+font-family: Inconsolata;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.92px;
+text-transform: uppercase;
+    max-width: 400px;
+    margin:20px 0 64px 24px ;
+    }
+    div.container{
+      
+        flex-direction: column;
+       
+        gap: 50px;
+      
+    }
+    div.container div{
+        height: 100%;
+        width: 100%;
+        display: flex;
+        align-items: center;
+    }
+    
+    div.left img {
+        width: 286.83px;
+        height: 238px;
+        flex-shrink: 0;
+    }
+    div.right h1{
+        color: var(--gray-1, #333);
+font-family: Space Mono;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.68px;
+width: 350px;
+    }
+    div.right p{
+        color: var(--gray-2, #4F4F4F);
+font-family: Space Mono;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -0.63px;
+width: 328px;
+right: 20px;
+margin-bottom: 0;
+    }
+    div.right button{
+        width: 216px;
+        height: 68px;
+        flex-shrink: 0;
+        position: relative;
+    margin-top: 66px;
+        left: -63px;
+    }
+    p.REDDDAX{
+        margin-top: 114px;
+        height: 50px;
+    }
+}
