@@ -70,6 +70,6 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [https://github.com/REDDDAX)
-- GitHub [@your-username](https://{github.com/your-usermame})
+- Website [@your website)
+- GitHub [https://github.com/REDDDAX)
 - Twitter [@your-twitter](https://{twitter.com/your-username})
